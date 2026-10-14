@@ -620,7 +620,7 @@ The executable will be created at:
 
 ```text
 
-target\\release\\software-watcher.exe
+target\release\software-watcher.exe
 
 ```
 
