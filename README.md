@@ -60,7 +60,7 @@ For example:
 
 ```text
 
-E:\\software-watcher\\
+E:\software-watcher\
 
 ```
 
@@ -72,7 +72,7 @@ or:
 
 ```text
 
-D:\\software-watcher\\
+D:\software-watcher\
 
 ```
 
@@ -96,7 +96,7 @@ Start the watcher:
 
 ```powershell
 
-.\\software-watcher.exe start
+.\software-watcher.exe start
 
 ```
 
@@ -108,7 +108,7 @@ Check its status:
 
 ```powershell
 
-.\\software-watcher.exe status
+.\software-watcher.exe status
 
 ```
 
@@ -140,7 +140,7 @@ Once started, Software Watcher runs in the background and automatically starts a
 
 ```powershell
 
-.\\software-watcher.exe start
+.\software-watcher.exe start
 
 ```
 
@@ -156,7 +156,7 @@ Starts the background watcher and creates the Windows startup entry.
 
 ```powershell
 
-.\\software-watcher.exe stop
+.\software-watcher.exe stop
 
 ```
 
@@ -176,7 +176,7 @@ The Windows startup entry is kept, so the watcher can start again the next time 
 
 ```powershell
 
-.\\software-watcher.exe restart
+.\software-watcher.exe restart
 
 ```
 
@@ -192,7 +192,7 @@ Stops and starts the watcher again.
 
 ```powershell
 
-.\\software-watcher.exe status
+.\software-watcher.exe status
 
 ```
 
@@ -232,7 +232,7 @@ Status: Stopped
 
 ```powershell
 
-.\\software-watcher.exe scan
+.\software-watcher.exe scan
 
 ```
 
@@ -252,7 +252,7 @@ This does not start another background watcher.
 
 ```powershell
 
-.\\software-watcher.exe uninstall
+.\software-watcher.exe uninstall
 
 ```
 
@@ -460,7 +460,7 @@ Running:
 
 ```powershell
 
-.\\software-watcher.exe start
+.\software-watcher.exe start
 
 ```
 
@@ -480,7 +480,7 @@ Running:
 
 ```powershell
 
-.\\software-watcher.exe stop
+.\software-watcher.exe stop
 
 ```
 
@@ -496,7 +496,7 @@ To stop the watcher and remove automatic startup, use:
 
 ```powershell
 
-.\\software-watcher.exe uninstall
+.\software-watcher.exe uninstall
 
 ```
 
