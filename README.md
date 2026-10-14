@@ -626,56 +626,6 @@ target\release\software-watcher.exe
 
 
 
-Check the project without producing a release build:
-
-
-
-```powershell
-
-cargo check
-
-```
-
-
-
-Format the Rust source:
-
-
-
-```powershell
-
-cargo fmt
-
-```
-
-
-
-\## Recommended `.gitignore`
-
-
-
-The repository should not include build output or personal CSV inventories.
-
-
-
-Example:
-
-
-
-```gitignore
-
-/target
-
-software.csv
-
-reinstall.csv
-
-\*.bak
-
-```
-
-
-
 \## Platform
 
 
