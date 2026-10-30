@@ -256,7 +256,6 @@ Software Watcher primarily relies on software information registered in the Wind
 
 Because of this:
 
-- Portable applications may not appear
 - Some applications may not provide an install date
 - Some applications may not provide an install location
 - Some installers may register multiple components
